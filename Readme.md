@@ -15,7 +15,7 @@ An AI-powered Telegram bot that automatically detects and removes spam messages 
 
 1. **Clone the repository**:
 ```bash
-git clone https://github.com/Harshit-shrivastav/telegram-spam-bot.git
+git clone https://github.com/Harshit-shrivastav/spam-detector-bot.git
 cd telegram-spam-bot
 ```
 
@@ -27,7 +27,7 @@ pip install -r requirements.txt
 3. **Get Telegram Bot Token**:
    - Talk to [@BotFather](https://t.me/BotFather) on Telegram
    - Create a new bot and copy the API token
-   - Replace `YOUR_BOT_TOKEN` in `bot.py` with your token
+   - Replace `YOUR_BOT_TOKEN` in `main.py` with your token
 
 ## Usage
 
@@ -105,7 +105,6 @@ text,label
 "how are you",0
 "urgent money needed",1
 "good morning",0
-"chutiya bana rha hai",1
 ```
 
 ## Requirements
